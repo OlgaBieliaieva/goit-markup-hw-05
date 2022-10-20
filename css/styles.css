@@ -229,6 +229,22 @@ background-color: var(--background-color-button);
   display: flex;  
   gap: 30px;
 }
+.service-item-wrapper {
+  position: relative;
+}
+.service-item-title {
+  position: absolute;
+  bottom: 0px;
+  width: 370px;  
+  padding: 27px 0;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--color-invert);
+  font-size: var(--font-size-primary);
+  font-weight: var(--font-weight-heading);  
+  line-height: 1.14;
+  text-transform: uppercase;
+}
 .our-team {
   background-color: var(--background-color-secondary);
 }
